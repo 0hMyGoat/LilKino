@@ -7,6 +7,8 @@ import { NavBarComponent } from './shared/components/nav-bar/nav-bar.component';
 import { MoviesListComponent } from './movies/movies-list/movies-list.component';
 import { MoviesPageComponent } from './movies/movies-page/movies-page.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

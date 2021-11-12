@@ -1,1 +1,10 @@
-<p>movies-page works!</p>
+<div class="mat-card">
+  <h2 class="mat-card-title">{{movie.title}}</h2>
+  <hr>
+  <img class="mat-card-img" src="{{movie.posterPath}}" alt="">
+  <hr>
+  <body class="mat-card-content">{{movie.synopsys}}</body>
+  <hr>
+  <footer ngClass="mat-card-footer">Durée : {{movie.duration}}</footer>
+</div>
+<hr>

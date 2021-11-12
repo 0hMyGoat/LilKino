@@ -5,4 +5,5 @@ export interface Movie {
   posterPath: string
   language: string
   pegi: number
+  synopsys: string
 }

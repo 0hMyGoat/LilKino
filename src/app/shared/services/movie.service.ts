@@ -14,7 +14,7 @@ export class MovieService {
   getMovies(): Observable<Movie[]> {
     return this.http.get<Movie[]>(`${environment.apiUrl}/movies`)
   }
-  // getMovie(): Observable<Movie> {
-  //   return this.http.get<Movie>(`${environment.apiUrl}/movies/${id}`)
-  // }
+  getMovie(id: number): Observable<Movie> {
+    return this.http.get<Movie>(`${environment.apiUrl}/movies/${id}`)
+  }
 }

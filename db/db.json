@@ -4,9 +4,19 @@
     "id": "1",
     "title": "Sample",
     "duration": "1h",
-    "posterPath": "./materials/img/file.png",
+    "posterPath": "https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg",
     "language": "EN",
-    "pegi": "18"
+    "pegi": "18",
+    "synopsys": "lorem ipsum blablabla"
+  },
+  {
+    "id": "2",
+    "title": "Hitman le cobra",
+    "duration": "1h30",
+    "posterPath": "https://www.ecranlarge.com/media/cache/160x213/uploads/image/001/290/fhcnkxik8wif9g9yz74bhphcneh-595.jpg",
+    "language": "FR",
+    "pegi": "0",
+    "synopsys": "Philippe (Richard Harrison) tue Roger (qui a vendu des informations aux japonais). Mike (Mike Abbott), le frère de Roger, veut se venger. Il envoie Bob, Blackie (Nathan Mutanda Chukueke) et un autre gars retrouver Philippe. Ce dernier, rompu à l'utilisation des armes à feu, tue le gars sans nom, puis Blackie puis encore un autre type qu'on n'avait jamais vu, puis Bob. Enfin, Philippe décide de régler ses comptes avec Mike. L'affrontement sera sans merci..."
   }
   ],
   "sessions": [
