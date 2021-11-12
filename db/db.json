@@ -1,0 +1,36 @@
+{
+  "movies": [
+    {
+    "id": "",
+    "title": "",
+    "duration": "",
+    "posterPath": "",
+    "language": "",
+    "pegi": ""
+  }
+  ],
+  "sessions": [
+    {
+      "id": "",
+      "movieId": "",
+      "date": "",
+      "roomId": ""
+    }
+  ],
+
+  "room": [
+    {
+      "id": ""
+    }
+  ],
+
+  "clients": [
+    {
+      "id": "",
+      "name": "",
+      "e-mail": "",
+      "birthDate": ""
+
+    }
+    ]
+}
