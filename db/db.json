@@ -1,35 +1,35 @@
 {
   "movies": [
     {
-    "id": "",
-    "title": "",
-    "duration": "",
-    "posterPath": "",
-    "language": "",
-    "pegi": ""
+    "id": "1",
+    "title": "Sample",
+    "duration": "1h",
+    "posterPath": "./materials/img/file.png",
+    "language": "EN",
+    "pegi": "18"
   }
   ],
   "sessions": [
     {
-      "id": "",
-      "movieId": "",
-      "date": "",
-      "roomId": ""
+      "id": "1",
+      "movieId": "1",
+      "date": "Today",
+      "roomId": "1"
     }
   ],
 
   "room": [
     {
-      "id": ""
+      "id": "1"
     }
   ],
 
   "clients": [
     {
-      "id": "",
-      "name": "",
-      "e-mail": "",
-      "birthDate": ""
+      "id": "1",
+      "name": "Eric Zemmour",
+      "eMail": "killmeplease@gmail.com",
+      "birthDate": "01/01/45"
 
     }
     ]
