@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import {MatCardModule} from '@angular/material/card';
+import { Movie } from 'src/app/shared/models/movie';
+
 
 @Component({
   selector: 'app-movies-list',
@@ -6,6 +9,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./movies-list.component.scss']
 })
 export class MoviesListComponent implements OnInit {
+
+  id?: number = undefined;
+  movies: Movie[] = []
 
   constructor() { }
 

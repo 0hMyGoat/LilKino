@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
+import { Router } from '@angular/router';
+import { Movie } from 'src/app/shared/models/movie';
+import { MovieService } from 'src/app/shared/services/movie.service';
+import {MatCard, MatCardModule} from '@angular/material/card';
 
 @Component({
   selector: 'app-movies-page',
@@ -7,7 +11,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MoviesPageComponent implements OnInit {
 
-  constructor() { }
+  @Input() movie!: Movie;
+
+  constructor(
+    private movieService: MovieService,
+    private router: Router,
+    private card: MatCard
+    ) { }
 
   ngOnInit(): void {
   }
