@@ -9,6 +9,8 @@ import { MoviesPageComponent } from './movies/movies-page/movies-page.component'
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { MatCardModule } from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { MatCardModule } from '@angular/material/card';
     AppRoutingModule,
     RouterModule,
     HttpClientModule,
-    MatCardModule
+    MatCardModule,
+    MatGridListModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

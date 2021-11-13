@@ -1,7 +1,14 @@
 .mat-card-img {
-  max-width: 90%;
+  max-width: 30%;
 }
 
 .mat-card {
-width: 30vw;
+min-width: 50%;
+width: 20vw;
+margin: 2em auto;
+}
+
+.mat-card-actions {
+  width: auto fit-content;
+  margin: auto;
 }
